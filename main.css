@@ -146,7 +146,7 @@ body {
 	font-size: .8em;
 	color: #106db3;
 	display: inline-block;
-	padding: 0 0 0 100px;
+	padding: 0 0 0 10px;
 	margin-top: 10px;
 }
 
@@ -306,7 +306,7 @@ blockquote {
   color: #106db3;
 }
 
-/*.paddle-overlay {
+.paddle-overlay {
   background: rgba(17,117,192,0.5 );
   position: absolute;
   width: 280px;
@@ -315,11 +315,11 @@ blockquote {
   top: 0;
   right: 0;
   bottom: 0;
-*/
+
 }
 
 .paddle {
-  src: url(paddle.jpg);
+  src: url('paddle.jpg');
   position: relative;
 
 }
