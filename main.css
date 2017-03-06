@@ -131,11 +131,10 @@ body {
   color: #242F48;
 }
 
-.small-profile {
-	background-image: url('mypic.jpg');
+.small-profile img {
 	display: inline-block;
-	width: 40px;
-	height: 40px;
+	width: 30px;
+	height: 30px;
 	position: relative;
 	margin-left: 40px;
   border-radius: 50px;
@@ -144,7 +143,7 @@ body {
 
 .contributor {
 	font-family: 'Asap', 'sans-serif';
-	font-weight: 400;
+	font-weight: 400px;
 	font-size: .8em;
 	color: #106db3;
 	display: inline-block;
@@ -196,7 +195,7 @@ body {
 	display: inline-block;
 	font-family: 'Asap', 'sans-serif';
 	font-weight: 400;
-	margin: 0 0 0 0;
+	margin: 40px 0 0 0;
 	padding: 0 0 0 40px;
 	font-size: 4em;
 	color: #a3b3bf;
@@ -310,6 +309,9 @@ blockquote {
 
 .paddle-overlay {
   background: rgba(17,117,192,0.5 );
+  position: absolute;
+  width: 280px;
+
   height: 300px;
   top: 0;
   right: 0;
@@ -403,12 +405,11 @@ hr {
 .foot-image:hover div {
   background: transparent;
 }
-
-.foot-image h4 {
+ .foot-image h4 {
   font-family: 'Oswald', 'sans-serif';
   font-weight: 400;
   font-size: 1.8em;
-  color: #242F48;
+  color: #283551;
   margin: 0;
   padding: 10px 15px 0 15px;
   position: absolute;
@@ -421,7 +422,7 @@ hr {
 .footer {
 	height: 100px;
 	width: 100%;
-	background-color: #083452;
+	background-color: #093959;
 	margin-bottom: 8px;
 	clear: left;
 	position: relative;
