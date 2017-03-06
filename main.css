@@ -143,7 +143,7 @@ body {
 
 .contributor {
 	font-family: 'Asap', 'sans-serif';
-	font-weight: 400px;
+
 	font-size: .8em;
 	color: #106db3;
 	display: inline-block;
@@ -195,7 +195,7 @@ body {
 	display: inline-block;
 	font-family: 'Asap', 'sans-serif';
 	font-weight: 400;
-	margin: 40px 0 0 0;
+	margin: 0 0 0 0;
 	padding: 0 0 0 40px;
 	font-size: 4em;
 	color: #a3b3bf;
@@ -307,7 +307,7 @@ blockquote {
   color: #106db3;
 }
 
-.paddle-overlay {
+/*.paddle-overlay {
   background: rgba(17,117,192,0.5 );
   position: absolute;
   width: 280px;
@@ -316,7 +316,7 @@ blockquote {
   top: 0;
   right: 0;
   bottom: 0;
-
+*/
 }
 
 .paddle {
